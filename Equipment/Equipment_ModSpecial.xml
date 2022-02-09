@@ -1,5 +1,4 @@
 <Equipment>
-<!--Good Guys-->
 <!--Equipment; P0: Firearms-->
 <!--SMG's--> 
 <!--AssaultSMG-->
@@ -165,7 +164,7 @@
 			<Empty name="gen_empty"/>
 		</Sounds>
 	</Firearm>
-<!--AssaultSMGend-->
+<!--AssaultSMG's end-->
 
 <!--Support Secondaries-->
 	<Firearm name="MP5SC" inventoryBinding="SecondaryWeapon" category="rifle" unlockCost="4"
@@ -501,9 +500,7 @@
 	</Firearm>
 <!--Secondaries End-->
 <!--SMG's end-->
-
 <!--Rifles-->
-
 <!--Support Secondaries-->
 	<Firearm name="M4SC" inventoryBinding="SecondaryWeapon" category="rifle" unlockCost="4"
 			tooltip="@firearm_m4_carabine_name"
