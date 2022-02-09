@@ -1,10 +1,7 @@
 <Equipment>
 <!--Good Guys-->
-
 <!--Equipment; P0: Firearms-->
-
-<!--SMG's-->
-
+<!--SMG's--> 
 <!--AssaultSMG-->
 	<Firearm name="MP5C" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="4"
 			tooltip="@firearm_mp5a_name"
