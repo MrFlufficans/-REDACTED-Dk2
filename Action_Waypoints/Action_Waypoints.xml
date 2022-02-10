@@ -1,0 +1,24 @@
+<ActionWaypoints>
+    <defaults
+		buttonNormal="data/textures/gui_ingame/waypoints/missing_normal.dds"
+		buttonPotential="data/textures/gui_ingame/waypoints/missing_path.dds"
+		path="data/textures/gui_ingame/waypoints/ignore_path.dds"
+		empty="data/textures/gui_ingame/waypoints/missing_normal.dds"
+		disabled="data/textures/gui_ingame/waypoints/missing_disabled.dds"
+		pathBorder="data/textures/gui_ingame/waypoints/waypoint_border_normal.dds"
+		goSilentStatus="data/textures/gui_ingame/waypoints/go_silent_off_normal.dds"
+		covertStatus="data/textures/gui_ingame/waypoints/concealed_covert.dds"
+		suspiciousStatus="data/textures/gui_ingame/waypoints/concealed_suspicious.dds"
+		dangerAreaPath="data/textures/gui_ingame/waypoints/danger_area_path.dds"
+	/>
+
+    <wp
+		type="THROW_GRENADE"
+		equipment="FragGrenadeC"
+		ui_prefix="data/textures/gui_ingame/waypoints/frag"
+		ttip="@menu_game_fg_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_fg_none_ttip"/>
+
+        
+</ActionWaypoints>
