@@ -12,6 +12,9 @@
 		dangerAreaPath="data/textures/gui_ingame/waypoints/danger_area_path.dds"
 	/>
 
+
+<!--Lethal Grenades A_W-->
+<!--SingleFrag-->
     <wp
 		type="THROW_GRENADE"
 		equipment="FragGrenadeC"
@@ -20,5 +23,25 @@
 		ttip_disabled="@menu_generic_cannot_use"
 		ttip_empty="@menu_game_fg_none_ttip"/>
 
-        
+
+    <!--Kit Frag-->
+    <wp
+		type="THROW_GRENADE"
+		equipment="FragGrenadeKitC"
+		ui_prefix="data/textures/gui_ingame/waypoints/frag"
+		ttip="@menu_game_fg_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_fg_none_ttip"/>
+
+
+<!--Lethal A_W End-->
+
+
+<!--Non lethal Grenades A_W-->
+
+
+
+<!--Non Lethal A_W End-->
+
+<!--I am retard does the slap charges dynamic hammer shit require Action waypoints!??!?-->
 </ActionWaypoints>
