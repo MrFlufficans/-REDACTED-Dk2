@@ -3953,6 +3953,109 @@
 
 <!--Equipment; P3: Helmets + NVG's-->
 
+    <Helmet name="HelmetACHR" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_rangers_ach_name"
+			description="@helmet_rangers_ach_desc"
+			img="data/models/humans/attachments/ach_helmet_ui.dds"
+		>
+		<ClassBinding name="FireteamLead"/>
+		<ClassBinding name="Rifleman"/>
+		<ClassBinding name="DesignatedMarksman"/>
+		<ClassBinding name="AutoRifleman"/>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="0" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="360" coveragePercent="15" piercingProtectionLevel="4"/>
+		</Params>
+	</Helmet>
+
+	<Helmet name="HelmetFASTR" inventoryBinding="Helmet" unlockCost="4"
+			tooltip="@helmet_rangers_fast_name"
+			description="@helmet_rangers_fast_desc"
+			img="data/models/humans/attachments/ranger_helmet_ui.dds"
+		>
+		<ClassBinding name="FireteamLead"/>
+		<ClassBinding name="Rifleman"/>
+		<ClassBinding name="DesignatedMarksman"/>
+		<ClassBinding name="AutoRifleman"/>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="3"/>
+		</Params>
+	</Helmet>
+
+	<Helmet name="HelmetFASTMandible" inventoryBinding="Helmet" unlockCost="4"
+			tooltip="@helmet_rangers_fastmandible_name"
+			description="@helmet_rangers_fastmandible_desc"
+			img="data/models/humans/attachments/mandible_helmet_ui.dds"
+		>
+			<ClassBinding name="Assault"/>
+			<ClassBinding name="Support"/>
+			<ClassBinding name="Grenadier"/>
+			<ClassBinding name="Marksman"/>
+			<ClassBinding name="Medic"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-1"/>
+		<ConcealmentModifier add="0" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="360" coveragePercent="14" piercingProtectionLevel="3"/>
+		</Params>
+	</Helmet>
+
+	<Helmet name="HelmetFASTRF" inventoryBinding="Helmet" unlockCost="5"
+			tooltip="@helmet_rangers_fastrf_name"
+			description="@helmet_rangers_fastrf_desc"
+			img="data/models/humans/attachments/ranger_helmet_ui.dds"
+		>
+			<ClassBinding name="Assault"/>
+			<ClassBinding name="Support"/>
+			<ClassBinding name="Grenadier"/>
+			<ClassBinding name="Marksman"/>
+			<ClassBinding name="Medic"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-3"/>
+		<ConcealmentModifier add="0" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+		</Params>
+	</Helmet>
+
+	<Helmet name="HelmetIHPS" inventoryBinding="Helmet" unlockCost="10"
+			tooltip="@helmet_rangers_ihps_name"
+			description="@helmet_rangers_ihps_desc"
+			img="data/models/humans/attachments/ihps_helmet_ui.dds"
+		>
+			<ClassBinding name="Assault"/>
+			<ClassBinding name="Support"/>
+			<ClassBinding name="Grenadier"/>
+			<ClassBinding name="Marksman"/>
+			<ClassBinding name="Medic"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="0" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="360" coveragePercent="20" piercingProtectionLevel="5"/>
+		</Params>
+	</Helmet>
+
+	<Helmet name="CapREDACTED" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_CIA_localhat_name"
+			description="@helmet_CIA_localhat_desc"
+			img="data/models/humans/attachments/cia_beret_ui.dds"
+		>
+		<ClassBinding name="Undercover"/>
+		<ClassBinding name="BlackOps"/>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="1" />
+		<RenderObject3D model="data/models/humans/attachments/cia_beret.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_01.dds" attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
 <!--Helmets and Nvg's End-->
 
 <!--Equipment; P4: Vests-->
