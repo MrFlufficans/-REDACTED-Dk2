@@ -25,10 +25,11 @@
 				<Item name="M17PistolC"/>
 				<Item name="IronSights_Pistol"/>
 				<Item name="FlashbangC"/>
-				<Item name="Slap Charge"/>
+				<Item name="FragGrenadeC"/>
 				<Item name="DynamicHammerC"/>
 				<Item name="Lockpick"/>
-				<Item name="HelmetACH"/>
+				<Item name="HelmetACHR"/>
+				<Item name="NVGR"/>
 				<Item name="ClassifiedLVL3"/>
 			</Equipment>
 		</Human>
@@ -55,16 +56,16 @@
 			</Mobility>
 
 			<Equipment>
-				<Item name="M16A4"/>
+				<Item name="M4C"/>
 				<Item name="IronSights"/>
-				<Item name="M17 Pistol"/>
+				<Item name="M17PistolC"/>
 				<Item name="IronSights_Pistol"/>
 				<Item name="FlashbangC"/>
-				<Item name="Slap Charge"/>
-				<Item name="Spy Camera"/>
-				<Item name="Crowbar"/>
+				<Item name="FragGrenadeC"/>
+				<Item name="SlapChargeKitC"/>
 				<Item name="Lockpick"/>
-				<Item name="HelmetACH"/>
+				<Item name="HelmetACHR"/>
+				<Item name="NVGR"/>
 				<Item name="ClassifiedLVL3"/>
 			</Equipment>
 		</Human>
@@ -92,16 +93,16 @@
 			</Mobility>
 
 			<Equipment>
-				<Item name="M16A4"/>
-				<Item name="IronSights"/>
-				<Item name="M17 Pistol"/>
+				<Item name="M110A1C"/>
+				<Item name="LPVO_6X"/>
+				<Item name="M17PistolC"/>
 				<Item name="IronSights_Pistol"/>
-				<Item name="Flashbang"/>
-				<Item name="Slap Charge"/>
-				<Item name="Spy Camera"/>
-				<Item name="Crowbar"/>
+				<Item name="FlashbangC"/>
+				<Item name="FragGrenadeC"/>
+				<Item name="DynamicHammerC"/>
 				<Item name="Lockpick"/>
-				<Item name="HelmetACH"/>
+				<Item name="HelmetACHR"/>
+				<Item name="NVGR"/>
 				<Item name="ClassifiedLVL3"/>
 			</Equipment>
 		</Human>
@@ -129,15 +130,16 @@
 			</Mobility>
 
 			<Equipment>
-				<Item name="M16A4"/>
-				<Item name="IronSights"/>
-				<Item name="M17 Pistol"/>
+				<Item name="M249C"/>
+				<Item name="MGOM145"/>
+				<Item name="M17PistolC"/>
 				<Item name="IronSights_Pistol"/>
-				<Item name="Flashbang"/>
-				<Item name="Slap Charge"/>
-				<Item name="Spy Camera"/>
-				<Item name="Crowbar"/>
-				<Item name="HelmetACH"/>
+				<Item name="FlashbangC"/>
+				<Item name="FragGrenadeC"/>
+				<Item name="BreachingChargeC"/>
+				<Item name="Lockpick"/>
+				<Item name="HelmetACHR"/>
+				<Item name="NVGR"/>
 				<Item name="ClassifiedLVL3"/>
 			</Equipment>
 		</Human>
