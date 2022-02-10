@@ -11,7 +11,7 @@
 			unit="REDACTED"
 			class="FireteamLead">
 
-			<Id name="Ranger Assaulter" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="[REDACTED] Fireteam Leader" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="30.0"/>
 			<Mobility>
@@ -47,7 +47,7 @@
 			unit="REDACTED"
 			class="Rifleman">
 
-			<Id name="Ranger Assaulter" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="[REDACTED] Rifleman" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="30.0"/>
 			<Mobility>
@@ -84,7 +84,7 @@
 			unit="REDACTED"
 			class="DesignatedMarksman">
 
-			<Id name="Ranger Assaulter" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="[REDACTED] Marksman" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="30.0"/>
 			<Mobility>
@@ -121,7 +121,7 @@
 			unit="REDACTED"
 			class="AutoRifleman">
 
-			<Id name="Ranger Assaulter" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="[REDACTED] Autorifleman" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
 			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
 			<Brain suppressionRecovery="30.0"/>
 			<Mobility>
