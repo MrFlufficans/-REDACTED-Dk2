@@ -3756,7 +3756,34 @@
 
 <!--Throwables end-->
 <!--Equipment; P2: Gear-->
+	<DynamicHammer name="DynamicHammerC" inventoryBinding="SupportGear1" unlockCost="0"
+			tooltip="@utility_dynamic_hammer_name"
+			description="@utility_dynamic_hammer_desc"
+			img="data/models/equipment/hammer_dynamic_ui.dds"
+			img_tooltip="data/models/equipment/hammer_dynamic_ui_ttip.tga"
+			movie="data/movies/dynamic_hammer.ogv"
 
+			animationSet="dynamic_hammer"
+		>
+		<ClassBinding name="FireteamLead"/>
+		<ClassBinding name="Rifleman"/>
+		<ClassBinding name="DesignatedMarksman"/>
+		<ClassBinding name="AutoRifleman"/>
+		<RenderObject3D model="data/models/equipment/hammer_dynamic.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/hammer_dynamic.dds">
+			<Specular shininess="32" intensity="4.0"/>
+		</RenderObject3D>
+
+		<ModifiableParams
+			changeInTime="1648"
+			changeOutTime="1808"
+			efficiencyPercent="100"
+			audibleSoundRadius="12.0"
+
+			hitTime="1000"
+		/>
+		<MobilityModifiers moveSpeedModifierPercent="-7" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="-3" />
+	</DynamicHammer>
 <!--Gear end-->
 
 
