@@ -32,15 +32,36 @@
 		ttip="@menu_game_fg_ttip"
 		ttip_disabled="@menu_generic_cannot_use"
 		ttip_empty="@menu_game_fg_none_ttip"/>
-
-
 <!--Lethal A_W End-->
 
-
 <!--Non lethal Grenades A_W-->
+	<!--Single Flash-->
+    <wp
+		type="THROW_GRENADE"
+		equipment="FlashbangC"
+		ui_prefix="data/textures/gui_ingame/waypoints/flashbang"
+		ttip="@menu_game_fb_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_fb_none_ttip"/>
 
+    <!--Kit Flash-->
 
-
+    <wp
+		type="THROW_GRENADE"
+		equipment="FlashbangKitC"
+		ui_prefix="data/textures/gui_ingame/waypoints/flashbang"
+		ttip="@menu_game_fb_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_fb_none_ttip"/>
+    
+<!--Stingers-->
+    	<wp
+		type="THROW_GRENADE"
+		equipment="StingerC"
+		ui_prefix="data/textures/gui_ingame/waypoints/stinger"
+		ttip="@menu_game_stinger_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_stinger_none_ttip"/>
 <!--Non Lethal A_W End-->
 
 <!--I am retard does the slap charges dynamic hammer shit require Action waypoints!??!?-->

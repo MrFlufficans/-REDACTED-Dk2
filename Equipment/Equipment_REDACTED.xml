@@ -3539,7 +3539,6 @@
 			</EffectRange>
 		</Projectile>
 	</Grenade>
-
 	
 	<Grenade name="StingerC" inventoryBinding="UtilityPouch"
 			quantity="2"
