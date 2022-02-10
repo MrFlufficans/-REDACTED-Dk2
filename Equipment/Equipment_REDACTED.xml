@@ -3893,6 +3893,62 @@
 			</FX>
 		</Params>
 	</ExplosiveCharge>
+
+	
+	<ExplosiveCharge name="BreachingChargeC" inventoryBinding="SupportGear1"
+			quantity="1"
+
+			tooltip="@breaching_charge_name"
+			description="@breaching_charge_desc"
+			img="data/models/equipment/breaching_charge_ui.dds"
+			img_tooltip="data/models/equipment/breaching_charge_ui_ttip.tga"
+			movie="data/movies/breaching_charge.ogv"
+
+			animationSet="generic_device"
+			soundUse="equip_charge"
+			crouchOnUse="true"
+		>
+		<ClassBinding name="FireteamLead"/>
+		<ClassBinding name="Rifleman"/>
+		<ClassBinding name="DesignatedMarksman"/>
+		<ClassBinding name="AutoRifleman"/>
+		<RenderObject3D model="data/models/humans/attachments/backpack_breaching_charge.khm" attachSlot="vest_back_left" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/backpack_breaching_charge.dds"/>
+		<MobilityModifiers moveSpeedModifierPercent="-10" turnSpeedModifierPercent="-1"/>
+		<ModifiableParams
+			changeInTime="500"
+			changeOutTime="600"
+			efficiencyPercent="100"
+			deployTime="6000"
+
+			area1WidthMeters="2"
+			area1LengthMeters="4"
+			area1Damage="999"
+			area1StunTime="3000"
+
+			area2WidthMeters="4"
+			area2LengthMeters="6"
+			area2Damage="50"
+			area2StunTime="2000"
+
+			audibleSoundRadius="40"
+			audibleSoundRadiusForPlacing="1.5"
+			physicsDetonationForce="200"
+			damageType="2"
+		/>
+
+		<Params
+			bodyTemplate="BreachingChargeBody"
+			explosionSound="expl_breach_charge">
+
+			<FX
+				particles="BreachingCharge"
+				entity1="ExplosionLight"
+				entity2="scorch_mark_breach"
+				entity3="FX_dust_large">
+			</FX>
+
+		</Params>
+	</ExplosiveCharge>
 <!--Gear end-->
 
 
