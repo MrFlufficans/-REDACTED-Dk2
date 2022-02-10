@@ -3755,7 +3755,6 @@
 	</Grenade>
 <!--Lethal end-->
 
-
 <!--Throwables end-->
 <!--Equipment; P2: Gear-->
 
@@ -3763,6 +3762,8 @@
 
 
 <!--Equipment; P3: Helmets + NVG's-->
+
+<!--Helmets and Nvg's End-->
 
 <!--Equipment; P4: Vests-->
 	<Armor name="ClassifiedLVL3" inventoryBinding="Armor" unlockCost="0"
@@ -3865,8 +3866,4 @@
 <!--Vests end-->
 
 <!--Equipment; P5: Misc-->
-
-<!--Good Guys End-->
-
-
 </Equipment>
