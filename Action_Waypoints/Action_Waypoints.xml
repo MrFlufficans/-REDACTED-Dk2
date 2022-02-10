@@ -54,8 +54,8 @@
 		ttip_disabled="@menu_generic_cannot_use"
 		ttip_empty="@menu_game_fb_none_ttip"/>
     
-<!--Stingers-->
-    	<wp
+    <!--Stingers-->
+    <wp
 		type="THROW_GRENADE"
 		equipment="StingerC"
 		ui_prefix="data/textures/gui_ingame/waypoints/stinger"
