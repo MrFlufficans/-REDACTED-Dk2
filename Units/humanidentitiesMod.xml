@@ -3,4 +3,16 @@
     <Portrait tex="data/textures/portraits/cia2.dds" unit="REDACTED" gender="0" voicePack="male_very_american"/>
     <Portrait tex="data/textures/portraits/cia3.dds" unit="REDACTED" gender="0" voicePack="male_very_american"/>
     <Portrait tex="data/textures/portraits/cia4.dds" unit="REDACTED" gender="0" voicePack="male_very_american"/>
+
+    <Name name="MICH" gender="0"/>
+    <Name name="MARCO" gender="0"/>
+    <Name name="FLUFFY" gender="0"/>
+    <Name name="ROSH" gender="0"/>
+    <Name name="DIPCIFICAN" gender="0"/>
+    <Name name="PILZ" gender="0"/>
+    <Name name="TRAUMA" gender="0"/>
+    <Name name="ANTHONY" gender="0"/>
+    <Name name="MILLERmsf" gender="0"/>
+    <Name name="ULYSSEUS" gender="0"/>
+    <Name name="LYFIELD" gender="0"/>
 </HumanIdentities>
