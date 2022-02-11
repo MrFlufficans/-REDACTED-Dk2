@@ -933,7 +933,7 @@
 
 	<Firearm name="HK416C" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="HK416"
-			description="The HK416 blah blah Armchair Operator blah blah Seal 6 blah"
+			description="The HK416 blah blah Armchair Operator blah blah Seal Teamed 6 blah"
 			img="data/models/weapons/m4_ui.dds"
 
 			animationSet="rifle"
